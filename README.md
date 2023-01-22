@@ -14,7 +14,7 @@ The aim of this project is to:
 
 1. Scrape and collect the lyrics of Billboard Hot-100 songs from 1960−2021 and select the songs belonging to **Pop, Rock and Rap**. Similarly, scrape and collect lyrics of songs of 5 artists from those 3 selected genres.
 2. Perform Exploratory Data Analysis by plotting word clouds, exploring most frequent words, average line length, vocabulary richness, etc for each of the 3 selected genres.
-3. Create different language models using **Vanilla LSTMs, RoBERTa and GPT-2** and train the language models on the lyrics for the 3 selected genres separately.
+3. Create different language models using **Vanilla LSTMs** and **RoBERTa and GPT-2** (from 🤗 HuggingFace library) and train the language models on the lyrics for the 3 selected genres separately.
 4. Select the best performing model for each of the genres based on the performance metrics and fine-tune the models on the lyrics of the selected artists. We finally have 15 models (3 genres x 5 artists) using which we can generate lyrics like each of those artists.
 
 #
